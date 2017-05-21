@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72FD73B1EA75A52003969E5 /* 1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A72FD73A1EA75A52003969E5 /* 1_1.jpg */; };
+		A74476531EA666A30090EBDC /* bluefish.png in Resources */ = {isa = PBXBuildFile; fileRef = A744764E1EA666A30090EBDC /* bluefish.png */; };
+		A74476541EA666A30090EBDC /* buffaloFish.gif in Resources */ = {isa = PBXBuildFile; fileRef = A744764F1EA666A30090EBDC /* buffaloFish.gif */; };
+		A74476551EA666A30090EBDC /* dory.png in Resources */ = {isa = PBXBuildFile; fileRef = A74476501EA666A30090EBDC /* dory.png */; };
+		A74476561EA666A30090EBDC /* fish2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A74476511EA666A30090EBDC /* fish2.jpg */; };
+		A74476571EA666A30090EBDC /* fishroll.png in Resources */ = {isa = PBXBuildFile; fileRef = A74476521EA666A30090EBDC /* fishroll.png */; };
+		A75BA1C31E9D434F00080FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA1C21E9D434F00080FAE /* AppDelegate.swift */; };
+		A75BA1C51E9D434F00080FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA1C41E9D434F00080FAE /* ViewController.swift */; };
+		A75BA1C81E9D434F00080FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75BA1C61E9D434F00080FAE /* Main.storyboard */; };
+		A75BA1CA1E9D434F00080FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75BA1C91E9D434F00080FAE /* Assets.xcassets */; };
+		A75BA1CD1E9D434F00080FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75BA1CB1E9D434F00080FAE /* LaunchScreen.storyboard */; };
+		A75BA1D71E9D43E300080FAE /* HookerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA1D61E9D43E300080FAE /* HookerView.swift */; };
+		A75BA1D91E9D43F400080FAE /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA1D81E9D43F400080FAE /* GameManager.swift */; };
+		A75BA1DB1E9D47E100080FAE /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA1DA1E9D47E100080FAE /* FishView.swift */; };
+		A75BA1DD1E9D481F00080FAE /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = A75BA1DC1E9D481F00080FAE /* fish1.png */; };
+		A7F7446E1E9E982C00E2C95B /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F7446C1E9E982C00E2C95B /* hook.png */; };
+		A7F7446F1E9E982C00E2C95B /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F7446D1E9E982C00E2C95B /* ocean.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A72FD73A1EA75A52003969E5 /* 1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_1.jpg; sourceTree = "<group>"; };
+		A744764E1EA666A30090EBDC /* bluefish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluefish.png; sourceTree = "<group>"; };
+		A744764F1EA666A30090EBDC /* buffaloFish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = buffaloFish.gif; sourceTree = "<group>"; };
+		A74476501EA666A30090EBDC /* dory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dory.png; sourceTree = "<group>"; };
+		A74476511EA666A30090EBDC /* fish2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish2.jpg; sourceTree = "<group>"; };
+		A74476521EA666A30090EBDC /* fishroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fishroll.png; sourceTree = "<group>"; };
+		A75BA1BF1E9D434F00080FAE /* GameFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75BA1C21E9D434F00080FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A75BA1C41E9D434F00080FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A75BA1C71E9D434F00080FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A75BA1C91E9D434F00080FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A75BA1CC1E9D434F00080FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A75BA1CE1E9D434F00080FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75BA1D61E9D43E300080FAE /* HookerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookerView.swift; sourceTree = "<group>"; };
+		A75BA1D81E9D43F400080FAE /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		A75BA1DA1E9D47E100080FAE /* FishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		A75BA1DC1E9D481F00080FAE /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
+		A7F7446C1E9E982C00E2C95B /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
+		A7F7446D1E9E982C00E2C95B /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75BA1BC1E9D434F00080FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74476581EA666AD0090EBDC /* rosource */ = {
+			isa = PBXGroup;
+			children = (
+				A744764E1EA666A30090EBDC /* bluefish.png */,
+				A744764F1EA666A30090EBDC /* buffaloFish.gif */,
+				A74476501EA666A30090EBDC /* dory.png */,
+				A72FD73A1EA75A52003969E5 /* 1_1.jpg */,
+				A75BA1DC1E9D481F00080FAE /* fish1.png */,
+				A74476511EA666A30090EBDC /* fish2.jpg */,
+				A74476521EA666A30090EBDC /* fishroll.png */,
+				A7F7446C1E9E982C00E2C95B /* hook.png */,
+				A7F7446D1E9E982C00E2C95B /* ocean.png */,
+			);
+			name = rosource;
+			sourceTree = "<group>";
+		};
+		A75BA1B61E9D434F00080FAE = {
+			isa = PBXGroup;
+			children = (
+				A75BA1C11E9D434F00080FAE /* GameFish */,
+				A75BA1C01E9D434F00080FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A75BA1C01E9D434F00080FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75BA1BF1E9D434F00080FAE /* GameFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75BA1C11E9D434F00080FAE /* GameFish */ = {
+			isa = PBXGroup;
+			children = (
+				A74476581EA666AD0090EBDC /* rosource */,
+				A75BA1C21E9D434F00080FAE /* AppDelegate.swift */,
+				A75BA1C41E9D434F00080FAE /* ViewController.swift */,
+				A75BA1C61E9D434F00080FAE /* Main.storyboard */,
+				A75BA1C91E9D434F00080FAE /* Assets.xcassets */,
+				A75BA1CB1E9D434F00080FAE /* LaunchScreen.storyboard */,
+				A75BA1CE1E9D434F00080FAE /* Info.plist */,
+				A75BA1D61E9D43E300080FAE /* HookerView.swift */,
+				A75BA1D81E9D43F400080FAE /* GameManager.swift */,
+				A75BA1DA1E9D47E100080FAE /* FishView.swift */,
+			);
+			path = GameFish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75BA1BE1E9D434F00080FAE /* GameFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75BA1D11E9D434F00080FAE /* Build configuration list for PBXNativeTarget "GameFish" */;
+			buildPhases = (
+				A75BA1BB1E9D434F00080FAE /* Sources */,
+				A75BA1BC1E9D434F00080FAE /* Frameworks */,
+				A75BA1BD1E9D434F00080FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameFish;
+			productName = GameFish;
+			productReference = A75BA1BF1E9D434F00080FAE /* GameFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75BA1B71E9D434F00080FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mr.t;
+				TargetAttributes = {
+					A75BA1BE1E9D434F00080FAE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9N654UYZQY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A75BA1BA1E9D434F00080FAE /* Build configuration list for PBXProject "GameFish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75BA1B61E9D434F00080FAE;
+			productRefGroup = A75BA1C01E9D434F00080FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75BA1BE1E9D434F00080FAE /* GameFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75BA1BD1E9D434F00080FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BA1CD1E9D434F00080FAE /* LaunchScreen.storyboard in Resources */,
+				A7F7446E1E9E982C00E2C95B /* hook.png in Resources */,
+				A74476551EA666A30090EBDC /* dory.png in Resources */,
+				A72FD73B1EA75A52003969E5 /* 1_1.jpg in Resources */,
+				A75BA1CA1E9D434F00080FAE /* Assets.xcassets in Resources */,
+				A75BA1C81E9D434F00080FAE /* Main.storyboard in Resources */,
+				A74476541EA666A30090EBDC /* buffaloFish.gif in Resources */,
+				A74476561EA666A30090EBDC /* fish2.jpg in Resources */,
+				A7F7446F1E9E982C00E2C95B /* ocean.png in Resources */,
+				A74476571EA666A30090EBDC /* fishroll.png in Resources */,
+				A75BA1DD1E9D481F00080FAE /* fish1.png in Resources */,
+				A74476531EA666A30090EBDC /* bluefish.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75BA1BB1E9D434F00080FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BA1C51E9D434F00080FAE /* ViewController.swift in Sources */,
+				A75BA1DB1E9D47E100080FAE /* FishView.swift in Sources */,
+				A75BA1C31E9D434F00080FAE /* AppDelegate.swift in Sources */,
+				A75BA1D71E9D43E300080FAE /* HookerView.swift in Sources */,
+				A75BA1D91E9D43F400080FAE /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A75BA1C61E9D434F00080FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75BA1C71E9D434F00080FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A75BA1CB1E9D434F00080FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75BA1CC1E9D434F00080FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A75BA1CF1E9D434F00080FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A75BA1D01E9D434F00080FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75BA1D21E9D434F00080FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N654UYZQY;
+				INFOPLIST_FILE = GameFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mrt.GameFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A75BA1D31E9D434F00080FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N654UYZQY;
+				INFOPLIST_FILE = GameFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mrt.GameFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75BA1BA1E9D434F00080FAE /* Build configuration list for PBXProject "GameFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BA1CF1E9D434F00080FAE /* Debug */,
+				A75BA1D01E9D434F00080FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75BA1D11E9D434F00080FAE /* Build configuration list for PBXNativeTarget "GameFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BA1D21E9D434F00080FAE /* Debug */,
+				A75BA1D31E9D434F00080FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75BA1B71E9D434F00080FAE /* Project object */;
+}
